@@ -1,10 +1,8 @@
-def suma_tres(n):
-    print(n+3)
+def duplicar(num):
+    x=num*2
+    return x
 
-suma_tres(4)
+print(duplicar(4))
 
-def tabla_multiplicar(n):
-    for numero in range(1,11):
-        print(n,"*",numero,"=",n*numero)
-
-tabla_multiplicar(5)
+print(max(2,3))
+print(min(2,3))
